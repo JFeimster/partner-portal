@@ -9,7 +9,7 @@ export default function OffersPage() {
     <AppShell>
       <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {offers.map((offer) => (
-          <Link key={offer.id} href={`/app/offers/${offer.slug}`}>
+          <Link key={offer.id} href={`/app/offers_v2/dac-lethal`}>
             <Card className="hover:border-sky-400/30 hover:bg-white/10 transition">
               <Badge tone="accent">{offer.category}</Badge>
               <h2 className="mt-3 text-xl font-black">{offer.name}</h2>
